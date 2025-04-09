@@ -1,0 +1,859 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DESIGNIFY | Modern Interior Design</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Header -->
+    <header>
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#"><i class="fas fa-home-alt"></i> DESIGNIFY</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#services">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#gallery">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#testimonials">Testimonials</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active"
+                    style="background-image: url('https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=1600&auto=format&fit=crop');">
+                </div>
+                <div class="carousel-item"
+                    style="background-image: url('https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?q=80&w=1600&auto=format&fit=crop');">
+                </div>
+                <div class="carousel-item"
+                    style="background-image: url('https://images.unsplash.com/photo-1600210492493-0946911123ea?q=80&w=1600&auto=format&fit=crop');">
+                </div>
+            </div>
+        </div>
+
+        <div class="hero-overlay">
+            <h1 class="hero-title" id="heroTitle">Transforming Spaces, Creating Experiences</h1>
+            <p class="hero-subtitle" id="heroSubtitle">We specialize in designing and decorating homes, cafés,
+                restaurants, and event spaces to match your style and purpose.</p>
+            <div class="hero-btn">
+                <a href="#contact" class="btn btn-primary me-3">Book a Consultation</a>
+                <a href="#services" class="btn btn-outline mt-2 mt-md-0">Our Services</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services-section overflow-hidden">
+        <div class="container overflow-hidden">
+            <div class="section-title text-center" data-aos="fade-up">
+                <h2>Our <span class="text-gradient">Services</span></h2>
+                <p class="text-center">We offer a wide range of interior design and decoration services</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mt-3 " data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-home"></i>
+                        </div>
+                        <h3>Residential Interior Design</h3>
+                        <p>Transform your house into a warm, elegant, and functional space that reflects your personal
+                            style and meets your needs.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mt-3" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-coffee"></i>
+                        </div>
+                        <h3>Café & Restaurant Design</h3>
+                        <p>Create stylish, inviting environments that match your brand and attract customers with
+                            Instagram-worthy spaces.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mt-3" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-birthday-cake"></i>
+                        </div>
+                        <h3>Event Decoration & Setup</h3>
+                        <p>Custom themes, vibrant colors, and magical setups that make every moment memorable for
+                            birthdays and special events.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mt-3 mb-0 mb-md-3" data-aos="fade-up" data-aos-delay="400">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-building"></i>
+                        </div>
+                        <h3>Office & Workspace Design</h3>
+                        <p>Enhance productivity with organized and modern office interiors that balance functionality
+                            and aesthetic appeal.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mt-3 mb-0 mb-md-3" data-aos="fade-up" data-aos-delay="500">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-couch"></i>
+                        </div>
+                        <h3>Modular Furniture Solutions</h3>
+                        <p>Smart space-saving furniture that blends style with functionality, perfect for modern living
+                            spaces.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mt-3 mb-0 mb-md-3" data-aos="fade-up" data-aos-delay="600">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-paint-brush"></i>
+                        </div>
+                        <h3>Specialized Decor Services</h3>
+                        <p>Lighting & mood setup, floral arrangements, custom furniture selection, and themed wall
+                            murals & artwork.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery-section">
+        <div class="container">
+            <div class="section-title text-center" data-aos="fade-up">
+                <h2>Our <span class="text-gradient">Gallery</span></h2>
+                <p class="text-center">A visual showcase of our recent projects</p>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?q=80&w=800&auto=format&fit=crop"
+                            class="gallery-img" alt="Living Room Design">
+                        <div class="gallery-overlay">
+                            <h4>Modern Living Room</h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1565538810643-b5bdb714032a?q=80&w=800&auto=format&fit=crop"
+                            class="gallery-img" alt="Kitchen Design">
+                        <div class="gallery-overlay">
+                            <h4>Contemporary Kitchen</h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="gallery-item">
+                        <img src="/img/chair-sits-cabinstyle-bedroom.jpg" class="gallery-img" alt="Bedroom Design">
+                        <div class="gallery-overlay">
+                            <h4>Cozy Bedroom</h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="400">
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1521017432531-fbd92d768814?q=80&w=800&auto=format&fit=crop"
+                            class="gallery-img" alt="Cafe Design">
+                        <div class="gallery-overlay">
+                            <h4>Trendy Café</h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="500">
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?q=80&w=800&auto=format&fit=crop"
+                            class="gallery-img" alt="Birthday Party">
+                        <div class="gallery-overlay">
+                            <h4>Kids Birthday Setup</h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="600">
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?q=80&w=800&auto=format&fit=crop"
+                            class="gallery-img" alt="Office Design">
+                        <div class="gallery-overlay">
+                            <h4>Modern Workspace</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section id="process" class="process-section overflow-hidden">
+        <div class="container ">
+            <div class="section-title text-center" data-aos="fade-up">
+                <h2>How It <span class="text-gradient">Works</span></h2>
+                <p class="text-center">Our simple 5-step process to transform your space</p>
+            </div>
+
+            <div class="process-timeline" data-aos="fade-up">
+                <div class="row">
+                    <!-- Step 1 -->
+                    <div class="col-lg-12 ">
+                        <div class="process-step" data-aos="fade-right" data-aos-delay="100">
+                            <div class="process-number">1</div>
+                            <div class="process-content shadow-lg">
+                                <div class="process-icon">
+                                    <i class="fas fa-calendar-check"></i>
+                                </div>
+                                <div class="process-text">
+                                    <h4>Book a Consultation</h4>
+                                    <p>Tell us your needs and ideas. We'll discuss your vision, requirements, and budget
+                                        expectations during this initial meeting.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Step 2 -->
+                    <div class="col-lg-12">
+                        <div class="process-step" data-aos="fade-left" data-aos-delay="200">
+                            <div class="process-number">2</div>
+                            <div class="process-content shadow-lg mt-3">
+                                <div class="process-icon">
+                                    <i class="fas fa-tape"></i>
+                                </div>
+                                <div class="process-text">
+                                    <h4>Site Visit & Planning</h4>
+                                    <p>We assess your space and share concepts. Our team will take measurements, analyze
+                                        the space, and prepare initial design ideas.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Step 3 -->
+                    <div class="col-lg-12">
+                        <div class="process-step" data-aos="fade-right" data-aos-delay="300">
+                            <div class="process-number">3</div>
+                            <div class="process-content shadow-lg mt-3">
+                                <div class="process-icon">
+                                    <i class="fas fa-drafting-compass"></i>
+                                </div>
+                                <div class="process-text">
+                                    <h4>Design & Approval</h4>
+                                    <p>We prepare a design plan and get your approval. You'll receive detailed designs,
+                                        material selections, and cost estimates for review.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Step 4 -->
+                    <div class="col-lg-12">
+                        <div class="process-step" data-aos="fade-left" data-aos-delay="400">
+                            <div class="process-number">4</div>
+                            <div class="process-content shadow-lg mt-3">
+                                <div class="process-icon">
+                                    <i class="fas fa-hammer"></i>
+                                </div>
+                                <div class="process-text">
+                                    <h4>Execution & Setup</h4>
+                                    <p>We transform your space with quality materials. Our team handles all aspects of
+                                        implementation, from ordering materials to installation.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Step 5 -->
+                    <div class="col-lg-12">
+                        <div class="process-step" data-aos="fade-right" data-aos-delay="500">
+                            <div class="process-number">5</div>
+                            <div class="process-content shadow-lg mt-3">
+                                <div class="process-icon">
+                                    <i class="fas fa-clipboard-check"></i>
+                                </div>
+                                <div class="process-text">
+                                    <h4>Final Walkthrough</h4>
+                                    <p>We ensure everything is perfect before we sign off. Together, we'll review the
+                                        completed project and address any final adjustments.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+
+
+        </div>
+    </section>
+    <!-- Packages & Pricing Section -->
+    <section id="pricing" class="pricing-section pb-4">
+        <div class="container">
+            <div class="section-title text-center" data-aos="fade-up">
+                <h2>Packages & <span class="text-gradient">Pricing</span></h2>
+                <p class="text-center">Tailored solutions for every need and budget</p>
+            </div>
+
+            <div class="row">
+                <!-- Package 1 -->
+                <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="pricing-card">
+                        <div class="pricing-header">
+                            <div class="pricing-icon">
+                                <i class="fas fa-paint-roller"></i>
+                            </div>
+                            <h3>Mini Makeover Package</h3>
+                            <p>Ideal for small spaces or light redecorating</p>
+                        </div>
+                        <div class="pricing-body mb-5">
+                            <ul>
+                                <li><i class="fas fa-check"></i> Color consultation</li>
+                                <li><i class="fas fa-check"></i> Decor recommendations</li>
+                                <li><i class="fas fa-check"></i> Furniture arrangement</li>
+                                <li><i class="fas fa-check"></i> Shopping list</li>
+                            </ul>
+                        </div>
+                        <div class="pricing-footer ">
+                            <div class="price ">
+                                <h4><span class="currency">₹</span>10,000</h4>
+                                <p>Starting price</p>
+                            </div>
+                            <a href="#contact" class="btn pricing-btn">Get Started</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Package 2 -->
+                <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="pricing-card featured">
+                        <div class="pricing-header">
+                            <div class="pricing-icon">
+                                <i class="fas fa-home"></i>
+                            </div>
+                            <h3>Complete Room Design</h3>
+                            <p>Full design plan, color scheme, furniture arrangement, and decor</p>
+                        </div>
+                        <div class="pricing-body">
+                            <ul>
+                                <li><i class="fas fa-check"></i> Detailed design concept</li>
+                                <li><i class="fas fa-check"></i> 3D visualization</li>
+                                <li><i class="fas fa-check"></i> Furniture selection</li>
+                                <li><i class="fas fa-check"></i> Decor & accessories</li>
+                                <li><i class="fas fa-check"></i> Implementation support</li>
+                            </ul>
+                        </div>
+                        <div class="pricing-footer">
+                            <div class="price">
+                                <h4><span class="currency">₹</span>25,000</h4>
+                                <p>Starting price</p>
+                            </div>
+                            <a href="#contact" class="btn pricing-btn">Get Started</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Package 3 -->
+                <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="pricing-card">
+                        <div class="pricing-header">
+                            <div class="pricing-icon">
+                                <i class="fas fa-birthday-cake"></i>
+                            </div>
+                            <h3>Event Setup Package</h3>
+                            <p>Complete birthday or party decoration with theme, backdrop, balloons & lighting</p>
+                        </div>
+                        <div class="pricing-body">
+                            <ul>
+                                <li><i class="fas fa-check"></i> Theme customization</li>
+                                <li><i class="fas fa-check"></i> Custom backdrop</li>
+                                <li><i class="fas fa-check"></i> Balloon arrangements</li>
+                                <li><i class="fas fa-check"></i> Mood lighting</li>
+                                <li><i class="fas fa-check"></i> Complete setup & removal</li>
+                            </ul>
+                        </div>
+                        <div class="pricing-footer">
+                            <div class="price">
+                                <h4><span class="currency">₹</span>15,000</h4>
+                                <p>Starting price</p>
+                            </div>
+                            <a href="#contact" class="btn pricing-btn">Get Started</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Package 4 -->
+                <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="400">
+                    <div class="pricing-card">
+                        <div class="pricing-header">
+                            <div class="pricing-icon">
+                                <i class="fas fa-building"></i>
+                            </div>
+                            <h3>Commercial Space Styling</h3>
+                            <p>Custom design for cafés, restaurants, and offices</p>
+                        </div>
+                        <div class="pricing-body">
+                            <ul>
+                                <li><i class="fas fa-check"></i> Brand-aligned design</li>
+                                <li><i class="fas fa-check"></i> Space planning</li>
+                                <li><i class="fas fa-check"></i> Custom furniture sourcing</li>
+                                <li><i class="fas fa-check"></i> Lighting design</li>
+                                <li><i class="fas fa-check"></i> Signage & branding integration</li>
+                            </ul>
+                        </div>
+                        <div class="pricing-footer">
+                            <div class="price">
+                                <h4><span class="currency">₹</span>30,000</h4>
+                                <p>Starting price</p>
+                            </div>
+                            <a href="#contact" class="btn pricing-btn">Get Started</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonial-section">
+        <div class="container">
+            <div class="section-title text-center" data-aos="fade-up">
+                <h2>Client <span class="text-gradient">Testimonials</span></h2>
+                <p class="text-center">What our clients say about us</p>
+            </div>
+
+            <div class="testimonial-slider" data-aos="fade-up">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                        <div class="testimonial-card">
+                            <div class="testimonial-text">
+                                <p>They completely transformed my café. I now get so many compliments from customers!
+                                    The design is exactly what I wanted.</p>
+                            </div>
+                            <div class="client-info">
+                                <img src="https://randomuser.me/api/portraits/men/32.jpg" class="client-img"
+                                    alt="Client">
+                                <div class="client-name">
+                                    <h5>Amit R.</h5>
+                                    <span>Restaurant Owner</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                        <div class="testimonial-card">
+                            <div class="testimonial-text">
+                                <p>The birthday theme was perfect. My daughter was thrilled. Everything was just as
+                                    promised and went beyond our expectations!</p>
+                            </div>
+                            <div class="client-info">
+                                <img src="https://randomuser.me/api/portraits/women/44.jpg" class="client-img"
+                                    alt="Client">
+                                <div class="client-name">
+                                    <h5>Priya M.</h5>
+                                    <span>Happy Parent</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                        <div class="testimonial-card">
+                            <div class="testimonial-text">
+                                <p>They totally revamped my home living area. The colors, textures, and vibe feel just
+                                    right! Highly recommended for anyone.</p>
+                            </div>
+                            <div class="client-info">
+                                <img src="https://randomuser.me/api/portraits/men/68.jpg" class="client-img"
+                                    alt="Client">
+                                <div class="client-name">
+                                    <h5>Rahul D.</h5>
+                                    <span>Homeowner</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="row align-items-center overflow-hidden">
+                <div class="col-lg-6" data-aos="fade-right">
+                    <div class="about-img">
+                        <img src="https://images.unsplash.com/photo-1551434678-e076c223a692?q=80&w=800&auto=format&fit=crop"
+                            class="img-fluid rounded" alt="Our Team">
+                    </div>
+                </div>
+                <div class="col-lg-6 mt-3 mt-md-0" data-aos="fade-left">
+                    <div class="about-content">
+                        <div class="section-title">
+                            <h2>Your Space, <span class="text-gradient">Our Passion</span></h2>
+                        </div>
+                        <p style="text-align: justify;">We are a team of creative designers and decorators with a deep
+                            passion for transforming
+                            ordinary spaces into extraordinary experiences. Whether it's a cozy home, a vibrant café, a
+                            stylish restaurant, or a magical birthday party, we combine creativity, elegance, and
+                            practicality to bring your vision to life.</p>
+                        <p>With years of experience and a personalized approach, we focus on your needs, style, and
+                            budget — making sure every detail reflects your personality or brand.</p>
+
+                        <div class="why-choose-us mt-4">
+                            <h4>Why Choose Us?</h4>
+                            <div class="row mt-3">
+                                <div class="col-md-6">
+                                    <div class="feature">
+                                        <i class="fas fa-check-circle"></i>
+                                        <span>Customized Designs</span>
+                                    </div>
+                                    <div class="feature">
+                                        <i class="fas fa-check-circle"></i>
+                                        <span>Budget-Friendly Packages</span>
+                                    </div>
+                                    <div class="feature">
+                                        <i class="fas fa-check-circle"></i>
+                                        <span>Experienced Team</span>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="feature">
+                                        <i class="fas fa-check-circle"></i>
+                                        <span>One-Stop Solution</span>
+                                    </div>
+                                    <div class="feature">
+                                        <i class="fas fa-check-circle"></i>
+                                        <span>Timely Delivery</span>
+                                    </div>
+                                    <div class="feature">
+                                        <i class="fas fa-check-circle"></i>
+                                        <span>Free First Consultation</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section overflow-hidden">
+        <div class="overlay" data-aos="zoom-in">
+            <div class="container">
+                <h2 class="cta-title" >Ready to Transform Your Space?</h2>
+                <p class="cta-text" data-aos="fade-up" data-aos-delay="100">
+                    Let's work together to create the perfect environment that reflects your style and meets your needs.
+                </p>
+                <a href="#contact" class="btn cta-btn" data-aos="fade-up" data-aos-delay="200">Book a Free
+                    Consultation</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="faq-section">
+        <div class="container">
+            <div class="section-title text-center" data-aos="fade-up">
+                <h2>Frequently Asked <span class="text-gradient">Questions</span></h2>
+                <p class="text-center">Everything you need to know about our services</p>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-10" data-aos="fade-up" data-aos-delay="100">
+                    <div class="accordion accordion-flush" id="faqAccordion">
+                        <!-- FAQ Item 1 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header " id="faqHeading1">
+                                <button class="accordion-button collapsed border-3 shadow-lg" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#faqCollapse1" aria-expanded="false"
+                                    aria-controls="faqCollapse1">
+                                    <i class="fas fa-building me-2"></i> What type of spaces do you design?
+                                </button>
+                            </h2>
+                            <div id="faqCollapse1" class="accordion-collapse collapse " aria-labelledby="faqHeading1"
+                                data-bs-parent="#faqAccordion">
+                                <div class="accordion-body shadow-lg border-3">
+                                    We specialize in residential interiors, cafés, restaurants, event venues, and
+                                    office/commercial spaces. Our team has expertise across multiple design styles and
+                                    can adapt to the specific requirements of any space.
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- FAQ Item 2 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="faqHeading2">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faqCollapse2" aria-expanded="false" aria-controls="faqCollapse2">
+                                    <i class="fas fa-wallet me-2"></i> Can you work with my budget?
+                                </button>
+                            </h2>
+                            <div id="faqCollapse2" class="accordion-collapse collapse" aria-labelledby="faqHeading2"
+                                data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Absolutely! We offer flexible packages and work with budgets of all sizes without
+                                    compromising on style. Our designers are experts at finding creative solutions that
+                                    maximize value while staying within your financial comfort zone.
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- FAQ Item 3 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="faqHeading3">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faqCollapse3" aria-expanded="false" aria-controls="faqCollapse3">
+                                    <i class="fas fa-couch me-2"></i> Do you provide furniture or just decoration?
+                                </button>
+                            </h2>
+                            <div id="faqCollapse3" class="accordion-collapse collapse" aria-labelledby="faqHeading3"
+                                data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    We can source and recommend furniture as part of our full-service interior design
+                                    package. Our team has established relationships with quality furniture suppliers,
+                                    allowing us to offer a wide range of options that perfectly complement your space's
+                                    design.
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- FAQ Item 4 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="faqHeading4">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faqCollapse4" aria-expanded="false" aria-controls="faqCollapse4">
+                                    <i class="fas fa-clock me-2"></i> How long does a typical project take?
+                                </button>
+                            </h2>
+                            <div id="faqCollapse4" class="accordion-collapse collapse" aria-labelledby="faqHeading4"
+                                data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    It depends on the size and complexity of the project, but we always ensure timely
+                                    delivery with regular updates. Small room makeovers can take 2-3 weeks, while
+                                    complete homes or commercial spaces might require 6-12 weeks. We'll provide a
+                                    detailed timeline during our initial consultation.
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- FAQ Item 5 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="faqHeading5">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faqCollapse5" aria-expanded="false" aria-controls="faqCollapse5">
+                                    <i class="fas fa-handshake me-2"></i> Can I book a consultation before deciding?
+                                </button>
+                            </h2>
+                            <div id="faqCollapse5" class="accordion-collapse collapse" aria-labelledby="faqHeading5"
+                                data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Yes! We offer a free initial consultation to discuss your ideas and assess the
+                                    space. This no-obligation meeting helps us understand your vision and allows you to
+                                    get comfortable with our team before making any decisions.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="section-title text-center" data-aos="fade-up">
+                <h2>Get in <span class="text-gradient">Touch</span></h2>
+                <p class="text-center">We'd love to hear from you</p>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h5>Our Location</h5>
+                                <p>Rohtak</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h5>Call Us</h5>
+                                <p>000000000000</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h5>Email Us</h5>
+                                <p>1221@designify.com</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h5>Working Hours</h5>
+                                <p>Mon - Sat: 9AM - 6PM</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-8" data-aos="fade-up" data-aos-delay="200">
+                    <form class="contact-form">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <input type="text" class="form-control" placeholder="Your Name">
+                            </div>
+                            <div class="col-md-6">
+                                <input type="email" class="form-control" placeholder="Your Email">
+                            </div>
+                        </div>
+                        <input type="text" class="form-control" placeholder="Subject">
+                        <textarea class="form-control" rows="5" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn submit-btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <div class="overflow-hidden">
+        <footer data-aos="fade-up" data-aos-delay="100">
+            <div class="container ">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="footer-about">
+                            <h3 class="footer-logo">DESIGNIFY</h3>
+                            <p>We transform ordinary spaces into extraordinary experiences through creative design and
+                                decoration solutions.</p>
+                            <div class="social-links">
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-pinterest"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-6">
+                        <div class="footer-links">
+                            <h4>Company</h4>
+                            <ul>
+                                <li><a href="#about">About Us</a></li>
+                                <li><a href="#services">Services</a></li>
+                                <li><a href="#gallery">Projects</a></li>
+                                <li><a href="#testimonials">Testimonials</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer-links">
+                            <h4>Our Services</h4>
+                            <ul>
+                                <li><a href="#">Residential Design</a></li>
+                                <li><a href="#">Café & Restaurant Design</a></li>
+                                <li><a href="#">Event Decoration</a></li>
+                                <li><a href="#">Office Design</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer-links">
+                            <h4>Subscribe</h4>
+                            <p>Subscribe to our newsletter for design tips and updates.</p>
+                            <form class=" d-flex" style="gap: 5%;">
+                                <div>
+                                    <input class="form-control" type="email" placeholder="Your email">
+                                </div>
+                                <div class="">
+                                    <button class="p-2 border-4" style="background: rgb(255, 255, 255);
+                             color: rgb(0, 0, 0);  border-radius: 16px;width: 100px;" type="submit"><i
+                                            class="fas fa-paper-plane"></i> Submit </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="container">
+                    <p>&copy; 2025 DESIGNIFY. All Rights Reserved.</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top" id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+    <script src="javascript.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- AOS Animation JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Custom JS -->
+    <!-- <script src="script.js"></script> -->
+</body>
+
+</html>
